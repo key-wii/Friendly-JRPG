@@ -1,5 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"oControllerCombat","path":"objects/oControllerCombat/oControllerCombat.yy",},"order":0,},
+    {"id":{"name":"draw_9slice","path":"scripts/draw_9slice/draw_9slice.yy",},"order":0,},
+    {"id":{"name":"sprButton","path":"sprites/sprButton/sprButton.yy",},"order":0,},
+    {"id":{"name":"RoomCombat","path":"rooms/RoomCombat/RoomCombat.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -21,6 +25,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"RoomCombat","path":"rooms/RoomCombat/RoomCombat.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
@@ -38,6 +43,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/common.yy","order":1,"resourceVersion":"1.0","name":"common","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
