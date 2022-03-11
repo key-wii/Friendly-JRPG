@@ -1,1 +1,1 @@
-draw_9slice(l_edge, u_edge, r_edge, b_edge, sprButton, 0);
+draw_9slice(l_edge, u_edge, width, height, sprButton, 0);
