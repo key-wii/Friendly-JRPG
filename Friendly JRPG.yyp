@@ -3,6 +3,9 @@
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
     {"id":{"name":"Spr_oPlayer","path":"objects/Spr_oPlayer/Spr_oPlayer.yy",},"order":0,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":15,},
+    {"id":{"name":"jpenemeyrad","path":"objects/jpenemeyrad/jpenemeyrad.yy",},"order":1,},
+    {"id":{"name":"jpenemyrad_path","path":"paths/jpenemyrad_path/jpenemyrad_path.yy",},"order":0,},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":1,},
     {"id":{"name":"RoomOverworld1","path":"rooms/RoomOverworld1/RoomOverworld1.yy",},"order":0,},
   ],
   "Options": [
