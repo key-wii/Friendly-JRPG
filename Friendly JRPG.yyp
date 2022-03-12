@@ -1,8 +1,10 @@
 {
   "resources": [
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":2,},
+    {"id":{"name":"Spr_oShopKeeper","path":"objects/Spr_oShopKeeper/Spr_oShopKeeper.yy",},"order":2,},
     {"id":{"name":"Spr_oPlayer","path":"objects/Spr_oPlayer/Spr_oPlayer.yy",},"order":0,},
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":15,},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
     {"id":{"name":"RoomOverworld1","path":"rooms/RoomOverworld1/RoomOverworld1.yy",},"order":0,},
   ],
   "Options": [
