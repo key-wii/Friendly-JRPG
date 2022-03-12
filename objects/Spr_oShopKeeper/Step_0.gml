@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+// change shopkeep sprite to indicate interactability
 if place_empty(x,y,Spr_oPlayer)
 {
     sprite_index=Sprite2;
