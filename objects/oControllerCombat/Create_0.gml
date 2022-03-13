@@ -1,4 +1,8 @@
-width = 200;
-height = 100;
-l_edge = room_width / 2 - width / 2;
-u_edge = room_height - room_height / 4 - height / 2;
+var textbox = instance_create_layer(x, y, layer, oTextbox);
+textbox.fullText = "The skeleton appears!";
+/*textbox.fullText = "I have accepted after many defeats and trials that\n" +
+	"I am the chosen one to bring down the dark lord.\n" +
+	"I have accepted the limits of my morale and given up.\n" +
+	"I have accepted my defeat.\n" +
+	"For those of you who are still giving it your all good luck,\n" +
+	"hell awaits you up ahead.";*/

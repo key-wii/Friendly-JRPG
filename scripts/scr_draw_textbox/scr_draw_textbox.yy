@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "common",
-    "path": "folders/Scripts/common.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "draw_9slice",
+  "name": "scr_draw_textbox",
   "tags": [],
   "resourceType": "GMScript",
 }
