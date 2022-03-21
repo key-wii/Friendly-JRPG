@@ -1,13 +1,16 @@
 {
   "resources": [
-    {"id":{"name":"scr_next_text_box","path":"scripts/scr_next_text_box/scr_next_text_box.yy",},"order":3,},
+    {"id":{"name":"scr_command_empty","path":"scripts/scr_command_empty/scr_command_empty.yy",},"order":0,},
     {"id":{"name":"oControllerCombat","path":"objects/oControllerCombat/oControllerCombat.yy",},"order":2,},
     {"id":{"name":"sprCursor","path":"sprites/sprCursor/sprCursor.yy",},"order":3,},
-    {"id":{"name":"scr_draw_textbox","path":"scripts/scr_draw_textbox/scr_draw_textbox.yy",},"order":2,},
+    {"id":{"name":"scr_draw_textbox","path":"scripts/scr_draw_textbox/scr_draw_textbox.yy",},"order":1,},
+    {"id":{"name":"fnt_debug","path":"fonts/fnt_debug/fnt_debug.yy",},"order":1,},
+    {"id":{"name":"oCommand","path":"objects/oCommand/oCommand.yy",},"order":7,},
     {"id":{"name":"snd_text_pop2","path":"sounds/snd_text_pop2/snd_text_pop2.yy",},"order":3,},
     {"id":{"name":"oController","path":"objects/oController/oController.yy",},"order":0,},
     {"id":{"name":"scr_sound_machine","path":"scripts/scr_sound_machine/scr_sound_machine.yy",},"order":1,},
     {"id":{"name":"snd_text_serious","path":"sounds/snd_text_serious/snd_text_serious.yy",},"order":0,},
+    {"id":{"name":"scr_end_combat","path":"scripts/scr_end_combat/scr_end_combat.yy",},"order":1,},
     {"id":{"name":"scr_draw_9slice","path":"scripts/scr_draw_9slice/scr_draw_9slice.yy",},"order":0,},
     {"id":{"name":"oControllerAudio","path":"objects/oControllerAudio/oControllerAudio.yy",},"order":1,},
     {"id":{"name":"fnt_textbox","path":"fonts/fnt_textbox/fnt_textbox.yy",},"order":0,},
@@ -17,6 +20,8 @@
     {"id":{"name":"RoomCombat","path":"rooms/RoomCombat/RoomCombat.yy",},"order":1,},
     {"id":{"name":"snd_text_pop1","path":"sounds/snd_text_pop1/snd_text_pop1.yy",},"order":2,},
     {"id":{"name":"sprBox","path":"sprites/sprBox/sprBox.yy",},"order":4,},
+    {"id":{"name":"scr_draw_command","path":"scripts/scr_draw_command/scr_draw_command.yy",},"order":5,},
+    {"id":{"name":"scr_change_turn","path":"scripts/scr_change_turn/scr_change_turn.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -58,6 +63,7 @@
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/common.yy","order":0,"resourceVersion":"1.0","name":"common","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Controllers.yy","order":6,"resourceVersion":"1.0","name":"Controllers","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/combat logic.yy","order":4,"resourceVersion":"1.0","name":"combat logic","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

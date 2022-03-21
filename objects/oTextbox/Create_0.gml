@@ -1,7 +1,8 @@
 w = display_get_gui_width();
-h = display_get_gui_height();
+h_mod = 1.16;
+h = display_get_gui_height() / h_mod;
 x = w / 2;
-y = h - (h / 16);
+y = h * 1.2 - (h / 16);
 
 fullText = "";
 charCount = 0;
@@ -21,12 +22,15 @@ boxLeft = room_width / 2 - box_w / 2;
 //boxTop = h - box_h - space;
 boxTop = y;
 
+text_y = 0;
+up = true;
+
 text_draw = false;
 ready_text = false;
 //alarm_set(0, 1);
 alarm_set(10, 1);
 
-//clickHeld = 0;	NOT USING CLICK FUNCTIONALITY
+clicking = false;
 
 //textfile = "intro.txt"; NOT USING TEXTFILE
 //portrait = spr_por_0;	NOT USING PORTRAIT

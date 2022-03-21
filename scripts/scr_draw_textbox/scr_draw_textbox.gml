@@ -24,13 +24,12 @@ function draw_textbox(box_left, box_top, box_w, box_h, txtSpd, txtSnd, sndModife
 	var lines = string_count("\n", textPart) + 1;
 	textHeight /= lines;
 	var xxx = w / 2;
-	//var yyy = h - box_h + (box_h / 4) - (lines * 15) + (lines * 7);
-	var yyy = h - box_h + (box_h / 8) - (lines * 15) + (lines * 7);
+	var yyy = h - box_h + (box_h / 4) - (lines * 15) + (lines * 7);
 	//allows up to 4 lines of text
 	switch (lines) {
 		case 3: yyy += 15; break;
 		case 4: yyy += 21; break;
 	}
 	//draw_text(xxx + (por_h / 2) + 7, yyy + textHeight, textPart);	NOT USING PORTRAIT RN
-	draw_text(xxx, yyy + textHeight, textPart);
+	draw_text(xxx, yyy + text_y + textHeight, textPart);
 }

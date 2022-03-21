@@ -1,18 +1,22 @@
-/// @description After win: Go to previous room by clicking anywhere
-if (!global.victory) exit;
+/// @description Click functionality
+if (global.victory) exit;
 
+var _inBox = mouse_x >= boxLeft && mouse_x <= boxLeft + box_w &&
+	mouse_y >= boxTop && mouse_y <= boxTop + box_h;
 var _clicked = mouse_check_button_pressed(mb_left) || mouse_check_button_pressed(mb_right);
 var _released = mouse_check_button_released(mb_left) || mouse_check_button_released(mb_right);
 
-if (_clicked) {
+if (_inBox && _clicked) {
 	clicking = true;
+	boxTop = h - box_h - space + 2;
 }
 //Triggers when player lets go of mouse click within half a second after pressing it
 if (_released) {
-	if (mouse_x >= 0 && mouse_x <= room_width && mouse_y >= 0 && mouse_y < room_height &&
-		clicking) {
-			room_goto_previous();
+	if (_inBox && clicking) {
+		command();
 	}
-	if (clicking)
+	if (clicking) {
+		boxTop = h - box_h - space;
 		clicking = false;
+	}
 }
