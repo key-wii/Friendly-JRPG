@@ -14,6 +14,7 @@ if (_inBox && _clicked) {
 if (_released) {
 	if (_inBox && clicking) {
 		command();
+		sound_play(snd_text_pop1);
 	}
 	if (clicking) {
 		boxTop = h - box_h - space;
