@@ -21,7 +21,7 @@ with (_command_i) {
 	command = command_stall;
 }
 var _textbox = instance_create_layer(x, y, layer, oTextbox);
-_textbox.fullText = "The skeleton appears!";
+_textbox.fullText = "RADish appears!";
 /*textbox.fullText = "I have accepted after many defeats and trials that\n" +
 	"I am the chosen one to bring down the dark lord.\n" +
 	"I have accepted the limits of my morale and given up.\n" +

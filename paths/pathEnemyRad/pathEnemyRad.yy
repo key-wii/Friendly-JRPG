@@ -16,11 +16,11 @@
     {"speed":100.0,"x":758.621033,"y":737.2324,},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Paths",
+    "path": "folders/Paths.yy",
   },
   "resourceVersion": "1.0",
-  "name": "jpenemyrad_path",
+  "name": "pathEnemyRad",
   "tags": [],
   "resourceType": "GMPath",
 }

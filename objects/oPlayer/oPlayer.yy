@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprShopkeeper",
-    "path": "sprites/sprShopkeeper/sprShopkeeper.yy",
+    "name": "sprPlayer",
+    "path": "sprites/sprPlayer/sprPlayer.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,9 +21,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [
     {"x":0.0,"y":0.0,},
-    {"x":120.0,"y":0.0,},
-    {"x":120.0,"y":120.0,},
-    {"x":0.0,"y":120.0,},
+    {"x":64.0,"y":0.0,},
+    {"x":64.0,"y":64.0,},
+    {"x":0.0,"y":64.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
@@ -35,7 +35,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_oShopKeeper",
+  "name": "oPlayer",
   "tags": [],
   "resourceType": "GMObject",
 }
