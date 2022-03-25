@@ -11,7 +11,7 @@ space = 10;
 box_w = 30;
 box_h = 30;
 //yy = h - (h / 1.9) + 92;
-final_box_w = room_width / 3.75 - (space * 2);
+final_box_w = room_width / 2.8 - (space * 2);
 final_box_h = room_height / 8;
 
 boxLeft = room_width / 2;

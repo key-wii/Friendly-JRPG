@@ -7,7 +7,7 @@ boxLeft = room_width / 2 + (bbox_w + space / 2) * dir;
 boxTop = h - box_h - space;
 
 
-if (box_w >= 300 && alarm_get(0) <= 0 && !text_draw) {
+if (box_w >= final_box_w * .95 && alarm_get(0) <= 0 && !text_draw) {
 	alarm_set(0, 1);
 	text_draw = true;
 }
