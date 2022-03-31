@@ -1,7 +1,7 @@
 global.victory = false;
 global.turn = 0;
 
-create_player_turn_ui();
+create_player_turn_ui("Radish appears!");
 /*textbox.fullText = "I have accepted after many defeats and trials that\n" +
 	"I am the chosen one to bring down the dark lord.\n" +
 	"I have accepted the limits of my morale and given up.\n" +

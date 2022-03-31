@@ -1,7 +1,7 @@
 /// @description 8-directional movement
 //movement
-var spaceH = 6;
-var spaceV = 7;
+var spaceH = 0;
+var spaceV = 0;
 var xx = 0; var yy = 0;
 
 //horizontal movement

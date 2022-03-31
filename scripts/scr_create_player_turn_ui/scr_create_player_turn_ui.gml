@@ -1,4 +1,4 @@
-function create_player_turn_ui() {
+function create_player_turn_ui(flavor_text) {
 	var _command_r = instance_create_layer(x, y, layer, oCommand);
 	with (_command_r) {
 		fullText = "Recruit";
@@ -19,5 +19,5 @@ function create_player_turn_ui() {
 		command = command_stall;
 	}
 	var _textbox = instance_create_layer(x, y, layer, oTextbox);
-	_textbox.fullText = "RADish appears!";
+	_textbox.fullText = flavor_text;
 }

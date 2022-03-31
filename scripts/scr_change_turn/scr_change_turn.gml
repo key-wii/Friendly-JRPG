@@ -9,6 +9,6 @@ function change_turn() {
 	} else if (global.turn == 1) {
 		//Change to player turn
 		global.turn = 0;
-		create_player_turn_ui();
+		create_player_turn_ui("Radish appears!");
 	}
 }
