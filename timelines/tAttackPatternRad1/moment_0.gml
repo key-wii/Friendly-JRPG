@@ -1,16 +1,21 @@
 /// @description spawn bullets
+with (oEnemyTurn) {
+	growSpd = 6;
+	shrinkSpd = 12;
+	duration = 120;
+	box_w = 220;
+	box_h = 220;
+}
+
 // this attack pattern spawns 5 bullets, spread out above the player, 
 // which shoot toward the player after 1 second.
+var xx = 300;
+var yy = 300;
 
-posx = 300;
-posy = 300;
-
-show_debug_message("started loop");
-
-for (i=0; i<5; i++) 
+for (i = 0; i < 5; i++) 
 {
 	
-	currentBullet = instance_create_layer(posx + (i * 100), posy, layer, oBulletRad);
+	currentBullet = instance_create_layer(xx + (i * 100), yy, "Above", oBulletRad);
 	with (currentBullet)
 	{
 		

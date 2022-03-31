@@ -6,9 +6,9 @@ timeline_running = true;*/
 
 growSpd = 6; //maybe dynamic
 shrinkSpd = 12; //maybe dynamic
-duration = 300; //dynamic
-box_w = 200; //dynamic
-box_h = 200; //dynamic
+duration = 120; //dynamic
+box_w = 220; //dynamic
+box_h = 220; //dynamic
 box_left = x - box_w / 2;
 box_top = y - box_h / 2;
 

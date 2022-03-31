@@ -9,3 +9,5 @@ var _turn = "";
 if (global.turn == 0) _turn = "Player";
 if (global.turn == 1) _turn = "Enemy";
 draw_text(2, 24, _turn + " Turn");
+
+draw_text(2, 46, "HP: " + string(global.hp));

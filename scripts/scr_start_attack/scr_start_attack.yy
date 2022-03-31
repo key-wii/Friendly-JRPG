@@ -6,7 +6,7 @@
     "path": "folders/Scripts/combat logic.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_enemy_turn",
+  "name": "scr_start_attack",
   "tags": [],
   "resourceType": "GMScript",
 }
