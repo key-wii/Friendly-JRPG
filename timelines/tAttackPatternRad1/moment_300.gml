@@ -7,4 +7,5 @@ for (i = 4; i >=0; i--)
 	{
 		instance_destroy();
 	}
+	show_debug_message("bullet deleted");
 }

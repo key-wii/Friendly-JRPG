@@ -7,5 +7,5 @@ function change_turn() {
 	
 	//create a new controller object for handling enemy turn logic
 	
-	if (global.turn == 1) enemy_turn();
+	if (global.turn == 1) with (oControllerCombat) enemy_turn();
 }

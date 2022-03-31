@@ -14,13 +14,9 @@ for (i=0; i<5; i++)
 	with (currentBullet)
 	{
 		
-		direction = point_direction(posx + (i * 100), 
-									posy, 
-									oPlayerCombat.x, 
-									oPlayerCombat.y);
+		direction = point_direction(x, y, oPlayerCombat.x, oPlayerCombat.y);
 		speed = 0;
-		
-		attackArray[i] = currentBullet;
 	}
+	attackArray[i] = currentBullet;
 	show_debug_message("created bullet");
 }
