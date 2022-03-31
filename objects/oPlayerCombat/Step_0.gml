@@ -35,3 +35,6 @@ if (xx != 0 and yy != 0) {
 //move
 x += xx;
 y += yy;
+
+// checks if the player is dead .. if so, send them to the death dimension
+if (hp <= 0) room_goto(RoomDEAD);

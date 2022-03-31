@@ -5,7 +5,7 @@ function change_turn() {
 		instance_destroy(oTextbox);
 		instance_destroy(oCommand);
 		instance_create_layer(0, 0, "BG", oEnemyTurn);
-		
+		with (oControllerCombat) enemy_turn();
 	} else if (global.turn == 1) {
 		//Change to player turn
 		global.turn = 0;
