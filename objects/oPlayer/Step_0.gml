@@ -1,4 +1,4 @@
-/// 8-directional movement for player
+/// @description 8-directional movement
 if (keyboard_check(vk_left)) x = x - 3;
 if (keyboard_check(vk_right)) x = x + 3;
 if (keyboard_check(vk_up)) y = y - 3;
