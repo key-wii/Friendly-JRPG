@@ -8,7 +8,7 @@ duration = 120;
 box_w = 200;
 box_h = 200;
 box_left = x - box_w / 2;
-box_top = y;
+box_top = y + 45;
 
 alarm_set(10, duration);
 

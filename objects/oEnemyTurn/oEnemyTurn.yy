@@ -34,7 +34,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oBoundariesCombat",
+  "name": "oEnemyTurn",
   "tags": [],
   "resourceType": "GMObject",
 }
