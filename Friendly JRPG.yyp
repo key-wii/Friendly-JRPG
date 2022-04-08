@@ -16,6 +16,7 @@
     {"id":{"name":"scr_move_within_box","path":"scripts/scr_move_within_box/scr_move_within_box.yy",},"order":4,},
     {"id":{"name":"sprRadish","path":"sprites/sprRadish/sprRadish.yy",},"order":3,},
     {"id":{"name":"RoomOverworld1","path":"rooms/RoomOverworld1/RoomOverworld1.yy",},"order":0,},
+    {"id":{"name":"savedata_get","path":"scripts/savedata_get/savedata_get.yy",},"order":6,},
     {"id":{"name":"scr_command_empty","path":"scripts/scr_command_empty/scr_command_empty.yy",},"order":0,},
     {"id":{"name":"sprDead","path":"sprites/sprDead/sprDead.yy",},"order":8,},
     {"id":{"name":"oControllerCombat","path":"objects/oControllerCombat/oControllerCombat.yy",},"order":2,},
