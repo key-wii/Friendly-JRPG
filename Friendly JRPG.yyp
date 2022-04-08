@@ -8,7 +8,7 @@
     {"id":{"name":"tAttackPatternRad1","path":"timelines/tAttackPatternRad1/tAttackPatternRad1.yy",},"order":0,},
     {"id":{"name":"sprRadishBullet","path":"sprites/sprRadishBullet/sprRadishBullet.yy",},"order":7,},
     {"id":{"name":"oShopKeeper","path":"objects/oShopKeeper/oShopKeeper.yy",},"order":2,},
-    {"id":{"name":"scr_data_save","path":"scripts/scr_data_save/scr_data_save.yy",},"order":5,},
+    {"id":{"name":"savedata_set","path":"scripts/savedata_set/savedata_set.yy",},"order":5,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
     {"id":{"name":"sprShopkeeper","path":"sprites/sprShopkeeper/sprShopkeeper.yy",},"order":2,},
     {"id":{"name":"oEnemyRad","path":"objects/oEnemyRad/oEnemyRad.yy",},"order":0,},

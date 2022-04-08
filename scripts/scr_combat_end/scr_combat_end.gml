@@ -8,6 +8,8 @@ function combat_end() {
 		finished = false;
 	}
 	
+	savedata_set_true("recruitedRadish", true); //make this dynamic later to fit with any enemy
+	
 	audio_resume_all();
 	room_goto(global.CurrentRoom);
 }
