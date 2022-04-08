@@ -1,3 +1,5 @@
 /// @description DEBUG Go to Combat Room
-global.nextAttack = tAttackPatternRad1;
-room_goto(RoomCombat);
+if (room == RoomOverworld1) {
+	global.nextAttack = tAttackPatternRad1;
+	combat_start();
+}

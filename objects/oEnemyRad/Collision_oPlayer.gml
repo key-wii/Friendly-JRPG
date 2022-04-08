@@ -1,3 +1,4 @@
 /// @description Initiate combat
 global.nextAttack = tAttackPatternRad1;
-room_goto(RoomCombat);
+combat_start();
+instance_destroy();

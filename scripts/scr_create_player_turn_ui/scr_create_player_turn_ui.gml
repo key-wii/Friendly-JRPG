@@ -6,7 +6,7 @@ function create_player_turn_ui(flavor_text) {
 		image_speed = .8;
 		image_index = 0;
 		up = false;
-		command = end_combat;
+		command = combat_end;
 	}
 	var _command_i = instance_create_layer(x, y, layer, oCommand);
 	with (_command_i) {

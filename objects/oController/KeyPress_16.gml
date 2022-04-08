@@ -1,2 +1,2 @@
-/// @description DEBUG Go to Overworld Room
-room_goto(RoomOverworld1);
+/// @description DEBUG Go to Overworld Roomif (room == RoomCombat)
+	room_goto(RoomOverworld1);

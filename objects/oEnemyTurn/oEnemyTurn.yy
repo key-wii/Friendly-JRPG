@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Combat",
+    "path": "folders/Objects/Combat.yy",
   },
   "resourceVersion": "1.0",
   "name": "oEnemyTurn",

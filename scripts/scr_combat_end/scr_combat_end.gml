@@ -1,4 +1,4 @@
-function end_combat() {
+function combat_end() {
 	global.victory = true;
 	with (oCommand) image_speed = 0;
 	with (oTextbox) {
@@ -7,4 +7,7 @@ function end_combat() {
 		textSound = 0;
 		finished = false;
 	}
+	
+	audio_resume_all();
+	room_goto(global.CurrentRoom);
 }
