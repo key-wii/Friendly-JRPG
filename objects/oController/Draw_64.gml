@@ -25,4 +25,4 @@ draw_set_halign(fa_middle);
 draw_set_valign(fa_center);
 if (justReset) draw_text(room_width / 2, room_height / 2, "Game Reset");
 if (deleteSave) draw_text(room_width / 2, room_height / 2 - 22, "Save Data Deleted");
-if (movedRoom) draw_text(room_width / 2, room_height / 2 - 22, "Move Room Successful");
+if (movedRoom) draw_text(room_width / 2, room_height / 2 + 22, "Move Room Successful");
