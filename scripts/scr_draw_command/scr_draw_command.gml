@@ -5,7 +5,12 @@ function draw_command(box_left, box_top, box_w, box_h) {
 	draw_set_font(fnt_textbox);
 	draw_set_color(oController.UIcolor);
 
-	draw_9slice(box_left, box_top, box_w, box_h, sprButton, image_index);
+	var spr;
+	switch (global.boxCol) {
+		case "G": spr = sprButtonG break;
+		case "P": spr = sprButtonP break;
+	}
+	draw_9slice(box_left, box_top, box_w, box_h, spr, image_index);
 	
 	if (!text_draw) exit;
 	

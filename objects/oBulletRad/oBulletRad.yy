@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprRadishBullet",
-    "path": "sprites/sprRadishBullet/sprRadishBullet.yy",
+    "name": "sprPuppetBullet",
+    "path": "sprites/sprPuppetBullet/sprPuppetBullet.yy",
   },
   "solid": false,
   "visible": true,

@@ -7,10 +7,6 @@ function combat_start(){
 
 	room_persistent = true;
 	audio_pause_all();
-	//part_system_automatic_update(global.P_System, false);
-	/*var pauseSnd = true;
-	if (in a room where overworld music is same as combat) pauseSnd = false;
-	if (pauseSnd) audio_pause_sound(global.bgm);*/
 	global.CurrentRoom = room;
 
 	room_goto(RoomCombat);

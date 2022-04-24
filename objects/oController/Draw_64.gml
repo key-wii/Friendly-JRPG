@@ -3,22 +3,26 @@ draw_set_font(fnt_debug);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
-draw_text(2, 2, "Fps " + string(fps));
-
-if (room == RoomOverworld1) {
-	var _ally = savedata_get("Allies", "recruitedRadish", false);
-	//if (_ally == false) _ally = "false";
-	//else _ally = "true"
-	draw_text(2, 24, "Recruited Radish : " + string(_ally));
+var xx = 0;
+var _ally = savedata_get("Allies", "recruitedFrog", false);
+if (_ally == 1) {
+	//draw_text(2, 46 + xx, "Recruited Frog");
+	draw_sprite_ext(sprFrog, 0, 22 + xx, 20, .5, .5, 0, c_white, .5);
+	xx += 34;
 }
-else if (room == RoomCombat) {
+_ally = savedata_get("Allies", "recruitedPuppet", false);
+if (_ally == 1) {
+	//draw_text(2, 46 + xx, "Recruited Puppet");
+	draw_sprite_ext(sprPuppet, 0, 22 + xx, 20, .5, .5, 0, c_white, .5);
+}
+/*if (room == RoomCombat) {
 	var _turn = "";
 	if (global.turn == 0) _turn = "Player";
 	if (global.turn == 1) _turn = "Enemy";
-	draw_text(2, 24, _turn + " Turn");
-}
+	draw_text(4, room_height - 42, _turn + " Turn");
+}*/
 
-draw_text(2, 46, "HP: " + string(global.hp));
+draw_text(4, room_height - 20, "HP: " + string(global.hp));
 
 
 draw_set_halign(fa_middle);

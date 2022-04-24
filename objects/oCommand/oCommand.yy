@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprButton",
-    "path": "sprites/sprButton/sprButton.yy",
+    "name": "sprButtonG",
+    "path": "sprites/sprButtonG/sprButtonG.yy",
   },
   "solid": false,
   "visible": true,

@@ -5,7 +5,12 @@ function draw_textbox(box_left, box_top, box_w, box_h, txtSpd, txtSnd, sndModife
 	draw_set_font(fnt_textbox);
 	draw_set_color(oController.UIcolor);
 
-	draw_9slice(box_left, box_top, box_w, box_h, sprBox, 0);
+	var spr;
+	switch (global.boxCol) {
+		case "G": spr = sprBoxG break;
+		case "P": spr = sprBoxP break;
+	}
+	draw_9slice(box_left, box_top, box_w, box_h, spr, 0);
 	//var por_h = box_h - p_space * 2;	NOT USING PORTRAIT
 	//if (drawPortrait) draw_sprite_stretched(portrait, 0, box_left + p_space, box_top + p_space, por_h, por_h);
 

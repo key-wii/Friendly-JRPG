@@ -10,4 +10,7 @@ UIcolor = c_white;
 global.maxHp = 5;
 global.hp = global.maxHp;
 
+global.enemySpr = sprFrogCombat;
+global.boxCol = "G";
+
 room_goto(RoomOverworld1);
