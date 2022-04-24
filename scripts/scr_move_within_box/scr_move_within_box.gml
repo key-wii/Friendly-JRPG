@@ -9,15 +9,27 @@ function move_within_box() {
 	var moveH = 0;
 	moveH -= max(keyboard_check_direct(vk_left), keyboard_check_direct(ord("A")), 0);
 	moveH += max(keyboard_check_direct(vk_right), keyboard_check_direct(ord("D")), 0);
-	if (moveH < 0) xx -= spd;
-	if (moveH > 0) xx += spd;
+	if (moveH < 0) {
+		xx -= spd;
+		image_index = 1;
+	}
+	if (moveH > 0) {
+		xx += spd;
+		image_index = 3;
+	}
 
 	//vertical movement
 	var moveV = 0;
 	moveV -= max(keyboard_check_direct(vk_up), keyboard_check_direct(ord("W")), 0);
 	moveV += max(keyboard_check_direct(vk_down), keyboard_check_direct(ord("S")), 0);
-	if (moveV < 0) yy -= spd;
-	if (moveV > 0) yy += spd;
+	if (moveV < 0) {
+		yy -= spd;
+		image_index = 2;
+	}
+	if (moveV > 0) {
+		yy += spd;
+		image_index = 0;
+	}
 
 	//diagonal movement
 	if (xx != 0 && yy != 0) {
