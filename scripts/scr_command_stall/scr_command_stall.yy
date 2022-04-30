@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "menus",
-    "path": "folders/Scripts/combat logic/menus.yy",
+    "name": "commands",
+    "path": "folders/Scripts/combat logic/commands.yy",
   },
   "resourceVersion": "1.0",
   "name": "scr_command_stall",

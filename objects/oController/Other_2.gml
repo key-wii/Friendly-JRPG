@@ -12,5 +12,8 @@ global.hp = global.maxHp;
 
 global.enemySpr = sprFrogCombat;
 global.boxCol = "G";
+global.combatDialogue = ds_list_create();
+global.dialogueIndex = 0;
+global.noInput = false;
 
 room_goto(RoomOverworld1);

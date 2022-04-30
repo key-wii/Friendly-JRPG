@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "menus",
-    "path": "folders/Scripts/combat logic/menus.yy",
+    "name": "combat logic",
+    "path": "folders/Scripts/combat logic.yy",
   },
   "resourceVersion": "1.0",
   "name": "scr_combat_end",

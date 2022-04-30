@@ -19,3 +19,5 @@ switch(global.enemy) {
 		
 		break;
 }
+clicking = ds_list_create();
+for (var i = 0; i < ds_list_size(commands); i++) ds_list_add(clicking, false);

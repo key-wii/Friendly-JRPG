@@ -6,10 +6,11 @@ function change_turn() {
 		instance_destroy(oCommand);
 		instance_create_layer(0, 0, "Above_BG", oEnemyTurn);
 		with (oControllerCombat) start_attack(global.nextAttack);
+		global.noInput = false;
 	} else if (global.turn == 1) {
 		//Change to player turn
 		global.turn = 0;
-		create_player_turn_ui(global.textboxString);
+		create_player_turn_ui(global.flavorText);
 		with (oCommand) clicked = false;
 	}
 }

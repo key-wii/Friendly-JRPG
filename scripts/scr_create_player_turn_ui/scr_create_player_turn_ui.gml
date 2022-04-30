@@ -16,7 +16,7 @@ function create_player_turn_ui(flavor_text) {
 		image_speed = .8;
 		image_index = 4;
 		up = true;
-		command = command_stall;
+		command = command_text;
 	}
 	var _textbox = instance_create_layer(x, y, layer, oTextbox);
 	_textbox.fullText = flavor_text;
