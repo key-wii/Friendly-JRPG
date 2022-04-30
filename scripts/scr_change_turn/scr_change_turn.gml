@@ -10,5 +10,6 @@ function change_turn() {
 		//Change to player turn
 		global.turn = 0;
 		create_player_turn_ui(global.textboxString);
+		with (oCommand) clicked = false;
 	}
 }

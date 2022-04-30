@@ -1,5 +1,5 @@
 /// @description Bob up & down during combat
-if (global.victory) exit;
+if (global.victory || clicking) exit;
 if (wait == 0) {
 	if (up == false) {
 		text_y += .1;

@@ -1,10 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
-if place_free(x,y,)
-{
-    sprite_index=Sprite2;
-}
-else
-{
-	sprite_index=Sprite3;
-}
+/// @description 
+playerNear = false;
+y_adjust = 0;
+y_up = false;
+rot = 0;
+rot_r = false;

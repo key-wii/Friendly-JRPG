@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Combat",
-    "path": "folders/Objects/Combat.yy",
+    "name": "attacks",
+    "path": "folders/Objects/Combat/attacks.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBulletRad",

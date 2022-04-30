@@ -22,8 +22,8 @@ boxLeft = room_width / 2 - box_w / 2;
 //boxTop = h - box_h - space;
 boxTop = y;
 
-text_y = 0;
-up = true;
+/*text_y = 0;
+up = true;*/
 
 text_draw = false;
 ready_text = false;

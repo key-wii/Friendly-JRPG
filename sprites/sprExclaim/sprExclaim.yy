@@ -2,7 +2,7 @@
   "bboxMode": 2,
   "collisionKind": 2,
   "type": 0,
-  "origin": 7,
+  "origin": 9,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 100,
+  "width": 19,
+  "height": 29,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5e1f987b-3916-4d36-abc5-8e25c2fbdd09","path":"sprites/sprShopkeeper2/sprShopkeeper2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5e1f987b-3916-4d36-abc5-8e25c2fbdd09","path":"sprites/sprShopkeeper2/sprShopkeeper2.yy",},"LayerId":{"name":"20b5033a-fe90-44b8-a868-19474b7837ad","path":"sprites/sprShopkeeper2/sprShopkeeper2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprShopkeeper2","path":"sprites/sprShopkeeper2/sprShopkeeper2.yy",},"resourceVersion":"1.0","name":"5e1f987b-3916-4d36-abc5-8e25c2fbdd09","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5e1f987b-3916-4d36-abc5-8e25c2fbdd09","path":"sprites/sprExclaim/sprExclaim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5e1f987b-3916-4d36-abc5-8e25c2fbdd09","path":"sprites/sprExclaim/sprExclaim.yy",},"LayerId":{"name":"20b5033a-fe90-44b8-a868-19474b7837ad","path":"sprites/sprExclaim/sprExclaim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprExclaim","path":"sprites/sprExclaim/sprExclaim.yy",},"resourceVersion":"1.0","name":"5e1f987b-3916-4d36-abc5-8e25c2fbdd09","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprShopkeeper2","path":"sprites/sprShopkeeper2/sprShopkeeper2.yy",},
+    "spriteId": {"name":"sprExclaim","path":"sprites/sprExclaim/sprExclaim.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8c3df597-2d9a-452d-8470-870afff5d5f3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5e1f987b-3916-4d36-abc5-8e25c2fbdd09","path":"sprites/sprShopkeeper2/sprShopkeeper2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8c3df597-2d9a-452d-8470-870afff5d5f3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5e1f987b-3916-4d36-abc5-8e25c2fbdd09","path":"sprites/sprExclaim/sprExclaim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,13 +54,13 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 32,
-    "yorigin": 100,
+    "xorigin": 3,
+    "yorigin": 29,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprShopkeeper2","path":"sprites/sprShopkeeper2/sprShopkeeper2.yy",},
+    "parent": {"name":"sprExclaim","path":"sprites/sprExclaim/sprExclaim.yy",},
     "resourceVersion": "1.4",
-    "name": "sprShopkeeper2",
+    "name": "sprExclaim",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -97,7 +97,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sprShopkeeper2",
+  "name": "sprExclaim",
   "tags": [],
   "resourceType": "GMSprite",
 }

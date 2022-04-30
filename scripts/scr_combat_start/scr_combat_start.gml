@@ -1,4 +1,4 @@
-function combat_start(){
+function combat_start() {
 	//pause
 	room_speed = 60;
 	var width = surface_get_width(application_surface),

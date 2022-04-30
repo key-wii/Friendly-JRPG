@@ -3,6 +3,7 @@ h = display_get_gui_height();
 x = w / 2;
 y = h - (h / 16);
 
+sprite_index = asset_get_index("sprButton" + global.boxCol);
 fullText = "";
 
 space = 10;
@@ -30,3 +31,4 @@ alarm_set(11, 1);
 
 clicking = false;
 command = command_stall;
+clicked = false;

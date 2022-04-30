@@ -6,12 +6,12 @@ function create_player_turn_ui(flavor_text) {
 		image_speed = .8;
 		image_index = 0;
 		up = false;
-		command = combat_end;
+		command = recruit_menu;
 	}
 	var _command_i = instance_create_layer(x, y, layer, oCommand);
 	with (_command_i) {
 		//fullText = "Items";
-		fullText = "Nothing";
+		fullText = "Wait";
 		dir = RIGHT;
 		image_speed = .8;
 		image_index = 4;

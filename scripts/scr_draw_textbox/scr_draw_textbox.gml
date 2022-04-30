@@ -36,5 +36,5 @@ function draw_textbox(box_left, box_top, box_w, box_h, txtSpd, txtSnd, sndModife
 		case 4: yyy += 21; break;
 	}
 	//draw_text(xxx + (por_h / 2) + 7, yyy + textHeight, textPart);	NOT USING PORTRAIT RN
-	draw_text(xxx, yyy + text_y + textHeight, textPart);
+	draw_text(xxx, yyy + /*text_y +*/ textHeight, textPart);
 }

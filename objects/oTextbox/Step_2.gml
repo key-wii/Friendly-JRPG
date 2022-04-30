@@ -1,5 +1,5 @@
 /// @description Bob up & down
-if (global.victory) exit;
+/*if (global.victory) exit;
 if (up == false) {
 	text_y += .01;
 	if (text_y >= 1) {
@@ -10,4 +10,4 @@ if (up == false) {
 	if (text_y <= 0) {
 		up = false;
 	}
-}
+}*/
