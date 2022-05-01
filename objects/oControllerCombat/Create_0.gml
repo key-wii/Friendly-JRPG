@@ -1,5 +1,6 @@
 global.victory = false;
 global.turn = 0;
+global.turns = 1;
 
 create_player_turn_ui(global.textboxString);
 /*textbox.fullText = "I have accepted after many defeats and trials that\n" +

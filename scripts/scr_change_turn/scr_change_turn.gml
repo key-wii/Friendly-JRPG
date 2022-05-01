@@ -12,5 +12,6 @@ function change_turn() {
 		global.turn = 0;
 		create_player_turn_ui(global.flavorText);
 		with (oCommand) clicked = false;
+		global.turns++;
 	}
 }

@@ -4,6 +4,7 @@ function draw_textbox(box_left, box_top, box_w, box_h, txtSpd, txtSnd, sndModife
 	draw_set_valign(fa_middle);
 	draw_set_font(fnt_textbox);
 	draw_set_color(oController.UIcolor);
+	if (oController.UIcolor2 != oController.UIcolor) draw_set_color(oController.UIcolor2);
 
 	var spr;
 	switch (global.boxCol) {
@@ -28,12 +29,12 @@ function draw_textbox(box_left, box_top, box_w, box_h, txtSpd, txtSnd, sndModife
 	textHeight = string_height(textPart) + 2;
 	var lines = string_count("\n", textPart) + 1;
 	textHeight /= lines;
-	var xxx = w / 2;
+	var xxx = w / 2 + space / 4;
 	var yyy = h - box_h + (box_h / 4) - (lines * 15) + (lines * 7);
 	//allows up to 4 lines of text
 	switch (lines) {
 		case 3: yyy += 15; break;
-		case 4: yyy += 21; break;
+		case 4: yyy += 22; break;
 	}
 	//draw_text(xxx + (por_h / 2) + 7, yyy + textHeight, textPart);	NOT USING PORTRAIT RN
 	draw_text(xxx, yyy + /*text_y +*/ textHeight, textPart);

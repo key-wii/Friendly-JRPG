@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprPlayerOverworld",
-    "path": "sprites/sprPlayerOverworld/sprPlayerOverworld.yy",
+    "name": "sprPlayerOvF",
+    "path": "sprites/sprPlayerOvF/sprPlayerOvF.yy",
   },
   "solid": false,
   "visible": true,

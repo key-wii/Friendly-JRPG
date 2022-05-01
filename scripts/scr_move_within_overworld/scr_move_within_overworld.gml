@@ -1,5 +1,5 @@
 /// 8-directional movement
-function move_within_box() {
+function move_within_overworld() {
 	var spaceH = 1;
 	var spaceV = -2;
 	var xx = 0; var yy = 0;
@@ -11,9 +11,13 @@ function move_within_box() {
 	moveH += max(keyboard_check_direct(vk_right), keyboard_check_direct(ord("D")), 0);
 	if (moveH < 0) {
 		xx -= spd;
+		sprite_index = sprPlayerOvL;
+		image_speed = 1;
 	}
 	if (moveH > 0) {
 		xx += spd;
+		sprite_index = sprPlayerOvR;
+		image_speed = 1;
 	}
 
 	//vertical movement
@@ -22,9 +26,18 @@ function move_within_box() {
 	moveV += max(keyboard_check_direct(vk_down), keyboard_check_direct(ord("S")), 0);
 	if (moveV < 0) {
 		yy -= spd;
+		sprite_index = sprPlayerOvB;
+		image_speed = 1;
 	}
 	if (moveV > 0) {
 		yy += spd;
+		sprite_index = sprPlayerOvF;
+		image_speed = 1;
+	}
+	
+	if (xx == 0 && yy == 0) {
+		image_index = 0;
+		image_speed = 0;
 	}
 
 	//diagonal movement
