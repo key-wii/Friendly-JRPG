@@ -11,7 +11,7 @@ if (_clicked) {
 if (_released) {
 	if (mouse_x >= 0 && mouse_x <= room_width && mouse_y >= 0 && mouse_y < room_height &&
 		clicking) {
-			room_goto(RoomOverworld1);
+			combat_end();
 	}
 	if (clicking)
 		clicking = false;
