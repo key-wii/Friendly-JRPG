@@ -7,4 +7,9 @@ moveH -= max(keyboard_check_pressed(vk_left), keyboard_check_pressed(ord("A")), 
 moveH += max(keyboard_check_pressed(vk_right), keyboard_check_pressed(ord("D")), 0);
 moveV -= max(keyboard_check_pressed(vk_up), keyboard_check_pressed(ord("W")), 0);
 moveV += max(keyboard_check_pressed(vk_down), keyboard_check_pressed(ord("S")), 0);
-if (moveH != 0 || moveV != 0) image_index++;
+if (moveH != 0 || moveV != 0) {
+	if (step == 0) image_index = 1;
+	else image_index = 3;
+	step++;
+	if (step > 1) step = 0;
+}

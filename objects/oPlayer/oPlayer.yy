@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprPlayerOvF",
-    "path": "sprites/sprPlayerOvF/sprPlayerOvF.yy",
+    "name": "sprPlayerOvFidle",
+    "path": "sprites/sprPlayerOvFidle/sprPlayerOvFidle.yy",
   },
   "solid": false,
   "visible": true,

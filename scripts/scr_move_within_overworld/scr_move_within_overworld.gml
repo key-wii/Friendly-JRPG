@@ -12,12 +12,10 @@ function move_within_overworld() {
 	if (moveH < 0) {
 		xx -= spd;
 		sprite_index = sprPlayerOvL;
-		image_speed = 1;
 	}
 	if (moveH > 0) {
 		xx += spd;
 		sprite_index = sprPlayerOvR;
-		image_speed = 1;
 	}
 
 	//vertical movement
@@ -27,17 +25,31 @@ function move_within_overworld() {
 	if (moveV < 0) {
 		yy -= spd;
 		sprite_index = sprPlayerOvB;
-		image_speed = 1;
 	}
 	if (moveV > 0) {
 		yy += spd;
 		sprite_index = sprPlayerOvF;
-		image_speed = 1;
 	}
 	
 	if (xx == 0 && yy == 0) {
-		image_index = 0;
-		image_speed = 0;
+		switch (sprite_index) {
+			case sprPlayerOvF:
+				sprite_index = sprPlayerOvFidle;
+				image_index = 0;
+				break;
+			case sprPlayerOvB:
+				sprite_index = sprPlayerOvBidle;
+				image_index = 0;
+				break;
+			case sprPlayerOvR:
+				sprite_index = sprPlayerOvRidle;
+				image_index = 0;
+				break;
+			case sprPlayerOvL:
+				sprite_index = sprPlayerOvLidle;
+				image_index = 0;
+				break;
+		}
 	}
 
 	//diagonal movement
