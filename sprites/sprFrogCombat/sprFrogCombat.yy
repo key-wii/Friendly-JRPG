@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 42,
-  "bbox_right": 588,
-  "bbox_top": 161,
-  "bbox_bottom": 538,
+  "bbox_left": 40,
+  "bbox_right": 479,
+  "bbox_top": 80,
+  "bbox_bottom": 439,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 623,
-  "height": 606,
+  "width": 512,
+  "height": 512,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0c3e4b10-30d3-4458-a8e2-fb4a23458c2f","path":"sprites/sprFrogCombat/sprFrogCombat.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0c3e4b10-30d3-4458-a8e2-fb4a23458c2f","path":"sprites/sprFrogCombat/sprFrogCombat.yy",},"LayerId":{"name":"99353953-45eb-4cec-a2b8-da708103136d","path":"sprites/sprFrogCombat/sprFrogCombat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFrogCombat","path":"sprites/sprFrogCombat/sprFrogCombat.yy",},"resourceVersion":"1.0","name":"0c3e4b10-30d3-4458-a8e2-fb4a23458c2f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"19dd1ab5-bbd7-401a-93eb-5a4106a73e74","path":"sprites/sprFrogCombat/sprFrogCombat.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"19dd1ab5-bbd7-401a-93eb-5a4106a73e74","path":"sprites/sprFrogCombat/sprFrogCombat.yy",},"LayerId":{"name":"d5472120-8e41-40ea-815b-36bd326c3628","path":"sprites/sprFrogCombat/sprFrogCombat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprFrogCombat","path":"sprites/sprFrogCombat/sprFrogCombat.yy",},"resourceVersion":"1.0","name":"19dd1ab5-bbd7-401a-93eb-5a4106a73e74","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprFrogCombat","path":"sprites/sprFrogCombat/sprFrogCombat.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4a521d8c-d254-4225-a36a-9961343dea5a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c3e4b10-30d3-4458-a8e2-fb4a23458c2f","path":"sprites/sprFrogCombat/sprFrogCombat.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ccca79ec-47fc-438c-a0b0-0259ae12fa9b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"19dd1ab5-bbd7-401a-93eb-5a4106a73e74","path":"sprites/sprFrogCombat/sprFrogCombat.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 311,
-    "yorigin": 400,
+    "xorigin": 256,
+    "yorigin": 276,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprFrogCombat","path":"sprites/sprFrogCombat/sprFrogCombat.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"99353953-45eb-4cec-a2b8-da708103136d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d5472120-8e41-40ea-815b-36bd326c3628","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

@@ -17,4 +17,5 @@ global.combatDialogue = ds_list_create();
 global.dialogueIndex = 0;
 global.noInput = false;
 
+global.song = audio_play_sound(msc_overworld, false, true);
 room_goto(RoomOverworld1);
