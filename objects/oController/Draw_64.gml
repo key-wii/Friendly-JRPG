@@ -1,4 +1,4 @@
-/// @description DEBUG Text
+/// @description
 draw_set_font(fnt_debug);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
@@ -13,7 +13,7 @@ if (_ally == 1) {
 _ally = savedata_get("Allies", "recruitedPuppet", false);
 if (_ally == 1) {
 	//draw_text(2, 46 + xx, "Recruited Puppet");
-	draw_sprite_ext(sprPuppet, 0, 22 + xx, 20, .5, .5, 0, c_white, .5);
+	draw_sprite_ext(sprPuppetNoStrings, 0, 22 + xx, 20, .5, .5, 0, c_white, .5);
 }
 /*if (room == RoomCombat) {
 	var _turn = "";
@@ -30,3 +30,11 @@ draw_set_valign(fa_center);
 if (justReset) draw_text(room_width / 2, room_height / 2, "Game Reset");
 if (deleteSave) draw_text(room_width / 2, room_height / 2 - 22, "Save Data Deleted");
 if (movedRoom) draw_text(room_width / 2, room_height / 2 + 22, "Move Room Successful");
+
+
+var cur = sprCursor;
+if (room == RoomCombat) {
+	if (global.victory) cur = sprCursor3;
+	else cur = sprCursor2;
+}
+draw_sprite_ext(cur, 0, mouse_x, mouse_y, 2, 2, 0, c_white, 1);

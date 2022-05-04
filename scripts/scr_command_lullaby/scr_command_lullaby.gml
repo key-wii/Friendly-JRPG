@@ -1,5 +1,4 @@
 function command_lullaby() {
-	//display unique, wait, then display default text
 	global.textboxString =
 		"Naaaa-Na-Na-Naaaaaa\n" +
 		"La-Laaa-Laaaaaaa\n" +

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprPuppetCombat",
-    "path": "sprites/sprPuppetCombat/sprPuppetCombat.yy",
+    "name": "sprPuppetCombat3",
+    "path": "sprites/sprPuppetCombat3/sprPuppetCombat3.yy",
   },
   "solid": false,
   "visible": true,

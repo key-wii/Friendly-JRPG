@@ -1,3 +1,4 @@
+window_set_cursor(cr_none);
 justReset = savedata_get("DEBUG", "reset", false);
 savedata_set("DEBUG", "reset", false);
 alarm_set(0, 80);
@@ -8,7 +9,7 @@ instance_create_layer(x, y, layer, oControllerAudio);
 UIcolor = c_white;
 UIcolor2 = c_white;
 
-global.maxHp = 5;
+global.maxHp = 10;
 global.hp = global.maxHp;
 
 global.enemySpr = sprFrogCombat;

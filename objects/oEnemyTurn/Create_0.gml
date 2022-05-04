@@ -13,8 +13,9 @@ box_left = x - box_w / 2;
 box_top = y - box_h / 2;
 
 alarm_set(10, duration);
+alarm_set(1, 1);
 
-var player = instance_create_layer(x, box_top + box_h / 2, "Player", oPlayerCombat);
+player = instance_create_layer(x, box_top + box_h / 2, "Player", oPlayerCombat);
 player.box_left = box_left;
 player.box_top = box_top;
 player.box_w = box_w;

@@ -2,6 +2,7 @@ function command_text() {
 	//display text, wait, then change turn
 	global.textboxString = global.combatDialogue[| global.dialogueIndex];
 	global.dialogueIndex++;
+	if (global.dialogueIndex >= ds_list_size(global.combatDialogue)) global.dialogueIndex = 0;
 	with (oTextbox) {
 		visible = true;
 		charCount = 0;

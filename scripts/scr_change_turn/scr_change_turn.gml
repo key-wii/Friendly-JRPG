@@ -9,6 +9,7 @@ function change_turn() {
 		global.noInput = false;
 	} else if (global.turn == 1) {
 		//Change to player turn
+		oControllerCombat.timeline_running = false;
 		global.turn = 0;
 		create_player_turn_ui(global.flavorText);
 		with (oCommand) clicked = false;

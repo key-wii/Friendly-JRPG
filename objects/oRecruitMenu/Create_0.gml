@@ -13,14 +13,22 @@ switch(global.enemy) {
 	case "Frog": 
 		com0 = ["Slap", command_slap];
 		com1 = ["Shout", command_shout];
-		ds_list_add(commands, com0, com1);
+		com2 = ["Hug", command_hug];
+		ds_list_add(commands, com0, com1, com2);
 		if (global.turns > 1) {
-			com2 = ["Lullaby", command_lullaby];
-			ds_list_add(commands, com2);
+			com3 = ["Lullaby", command_lullaby];
+			ds_list_add(commands, com3);
 		}
 		break;
 	case "Puppet": 
-		
+		com0 = ["Examine", command_examine];
+		com1 = ["Hug", command_hug2];
+		com2 = ["Console", command_console];
+		ds_list_add(commands, com0, com1, com2);
+		if (global.unlockCom1) {
+			com2 = ["Rip Strings", command_rip];
+			ds_list_add(commands, com2);
+		}
 		break;
 }
 

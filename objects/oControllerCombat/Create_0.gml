@@ -1,6 +1,10 @@
 global.victory = false;
 global.turn = 0;
 global.turns = 1;
+global.noInput = false;
+
+global.unlockCom1 = false;
+global.successfulActs = 0;
 
 create_player_turn_ui(global.textboxString);
 /*textbox.fullText = "I have accepted after many defeats and trials that\n" +
@@ -15,8 +19,8 @@ bg = scr_earthbound_bg_create(room_width / 2, room_height / 2, "Background");
 switch(global.enemy) {
 	case "Frog":
 		audio_play_sound(snd_battle_start, false, false);
-		scr_earthbound_bg_set_position(bg, -200, -200);
-		scr_earthbound_bg_set_image(bg, bg_a2, 0, .8, c_white, true);
+		scr_earthbound_bg_set_position(bg, -150, -200);
+		scr_earthbound_bg_set_image(bg, bg_a, 0, .8, c_white, true);
 		scr_earthbound_bg_set_scale(bg, 5, 5);
 		scr_earthbound_bg_set_movement(bg, 270, .2);
 		scr_earthbound_bg_set_wave_x(bg, .25, 5, 0.01, 0);
@@ -25,7 +29,7 @@ switch(global.enemy) {
 	case "Puppet":
 		audio_play_sound(snd_battle_start2, false, false);
 		scr_earthbound_bg_set_position(bg, 0, 0);
-		scr_earthbound_bg_set_image(bg, bg_b2, 0, .3, c_white, true);
+		scr_earthbound_bg_set_image(bg, bg_b, 0, .3, c_white, true);
 		scr_earthbound_bg_set_scale(bg, 1, 1);
 		scr_earthbound_bg_set_movement(bg, 270, .2);
 		scr_earthbound_bg_set_col_ramp(bg, spr_demo_col_ramp, 0, .1, 0, 2);
