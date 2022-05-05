@@ -6,6 +6,8 @@ global.noInput = false;
 global.unlockCom1 = false;
 global.successfulActs = 0;
 
+audio_play_sound(msc_combat, false, true);
+
 create_player_turn_ui(global.textboxString);
 /*textbox.fullText = "I have accepted after many defeats and trials that\n" +
 	"I am the chosen one to bring down the dark lord.\n" +

@@ -1,5 +1,5 @@
 function ssSudden(shake, shake2, v, h) {
-	with (obj_camera_controller) {
+	with (oCamera) {
 		shakeSudden = shake;
 
 		plusShake = shake2;

@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.7,
+  "volume": 0.5,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "msc_overworld.mp3",
-  "duration": 51.22608,
+  "soundFile": "snd_damage.wav",
+  "duration": 1.356531,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "msc_overworld",
+  "name": "snd_damage",
   "tags": [],
   "resourceType": "GMSound",
 }
